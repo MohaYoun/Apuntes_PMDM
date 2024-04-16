@@ -13,9 +13,9 @@ hemos generado un Array de numeros y se lo hemos pasado a la otra actividad.
     Intent intent = new Intent(this, ej1Recep.class);
     intent.putExtra(NUMS_ARRAY, nums);
 ```
-    Recogida del array en la **Segunda Actividad**.
+   Recogida del array en la **Segunda Actividad**.
 ```
 lista = (ArrayList<String>)getIntent().getSerializableExtra(ej1Main09042024.NUMS_ARRAY);
 ```
-    Fallos cometidos:
+   Fallos cometidos:
  - **Crear los public static final String, y darles el mismo valor.**
